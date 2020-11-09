@@ -43,4 +43,13 @@ public class ToDo {
     public void setStatus(String status) {
         this.status = status;
     }
+
+
+    public void showData(int[] data){
+        for(int index = 0; index < data.length; index++){
+            System.out.println("Ini adalah sebuah data " + index+1 + ": " + data[index]);
+        }
+    }
+
+
 }
