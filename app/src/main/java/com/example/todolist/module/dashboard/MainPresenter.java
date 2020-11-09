@@ -10,8 +10,6 @@ import com.example.todolist.model.ToDo;
 import java.util.ArrayList;
 
 public class MainPresenter{
-
-
     public String setData(Adapter adapter) {
         ArrayList<ToDo> toDoList = DB.getInstance().getDb();
 

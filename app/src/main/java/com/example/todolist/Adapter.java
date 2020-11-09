@@ -44,7 +44,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.TodoViewHolder>{
     }
 
     static class TodoViewHolder extends RecyclerView.ViewHolder {
-
         private TextView title;
         private TextView notes;
         private TextView due_date;
